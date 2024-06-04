@@ -29,7 +29,7 @@ header .logo {
 	position: relative;
 	width: 60px;
 	height: 60px;
-	background: url(https://i.ibb.co/HrfVRcx/menu.png);
+	background: url(../image/menu.png);
 	background-repeat: no-repeat;
 	background-size: 30px;
 	background-position: center;
@@ -37,7 +37,7 @@ header .logo {
 }
 
 .toggle.active {
-	background: url(https://i.ibb.co/rt3HybH/close.png);
+	background: url(../image/close.png);
 	background-repeat: no-repeat;
 	background-size: 25px;
 	background-position: center;
@@ -51,15 +51,14 @@ header .logo {
 	min-height: 100vh;
 	padding: 100px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
-	background: #000000;
+	background: #111;
 	transition: 0.5s;
 	z-index: 2;
 }
 
 .showcase.active {
-	right: 300px;
+	transform: translate(-300px, 0px);
 }
 
 .showcase video {
@@ -72,13 +71,14 @@ header .logo {
 	opacity: 0.8;
 }
 
+
 .text {
 	position: relative;
 	z-index: 10;
 }
 
 .text h2 {
-	font-size: 2em;
+	font-size: 5em;
 	font-weight: 800;
 	color: #fff;
 	line-height: 1em;
@@ -86,7 +86,7 @@ header .logo {
 }
 
 .text h3 {
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: 700;
 	color: #fff;
 	line-height: 1em;
